@@ -5,13 +5,12 @@ This is a sample Spring Boot REST API example.
 It's aim is to calculate realtime statistics for the last 60 seconds of API usage.
 
 ## API Description
-It has two REST APIs namely /transactions and /statistics
 
 **POST /transactions**
 
 This endpoint is called whenever new transaction happens.
 
-BODY
+**BODY**
 
     {
         "amount" : double_value
@@ -22,7 +21,7 @@ BODY
 
 It returns the statistics of transactions happened in the last 60 seconds
 
-RESPONSE
+**RESPONSE**
 
     {
         "sum" : double_value
