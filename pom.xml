@@ -7,7 +7,7 @@
     <groupId>org.gasimzade.api</groupId>
     <artifactId>statistics-api</artifactId>
     <version>1.0.0</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>statistics-api</name>
     <description>REST API to calculate statistics of transactions in real time</description>
