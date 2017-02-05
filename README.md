@@ -7,7 +7,7 @@ It's aim is to calculate realtime statistics for the last 60 seconds of API usag
 ## API Description
 It has two REST APIs namely /transactions and /statistics
 
-** POST /transactions **
+**POST /transactions**
 
 This endpoint is called whenever new transaction happens.
 
@@ -17,7 +17,7 @@ BODY
         "timestamp" : epoch_time
     }
 
-** GET /statistics **
+**GET /statistics**
 
 It returns the statistics of transactions happened in the last 60 seconds
 
